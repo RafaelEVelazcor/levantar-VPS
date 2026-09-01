@@ -1,0 +1,17 @@
+{
+  "name": "reservai-provisioning",
+  "version": "0.1.0",
+  "description": "Aprovisiona automaticamente un subdominio de reservai.com.mx + un VPS de Hostinger cuando un cliente paga en Stripe.",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "stripe": "^16.12.0"
+  }
+}
