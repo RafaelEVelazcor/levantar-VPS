@@ -13,7 +13,7 @@ Cuando un cliente completa el pago en Stripe, este servicio:
 
 ## Antes de correrlo (pasos que se hacen UNA sola vez)
 
-Necesitas 4 datos de tu cuenta de Hostinger. Instala el CLI oficial y ejecuta:
+Necesitamos 4 datos de tu cuenta de Hostinger. Instala el CLI oficial y ejecuta:
 
 ```bash
 brew install hostinger/tap/hostinger   # o el binario para tu plataforma
